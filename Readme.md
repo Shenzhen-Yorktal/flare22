@@ -76,7 +76,7 @@ We design a dual-decoders segmentation model and a class-weighted loss to improv
 Your should do these things to train our model:
 
 ```
-replace the dice_loss.py
+replace the dice_loss.py in nnUNet\nnunet\training\loss_functions with the provided dice_loss.py
 put the nnUNetTrainerV2_MultiDecoder.py to nnUNet\nnunet\training\network_training
 put the generic_modular_UNet_MultiDecoder.py to nnUNet\nnunet\network_architecture
 ```
