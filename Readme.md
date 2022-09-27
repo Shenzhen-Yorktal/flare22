@@ -98,7 +98,7 @@ Change the paths in put_roi_back.py and run it.
 ```
 put_roi_back
 ```
-## Ohters
+## Others
 Use predict_1by1.py and run_inference.py for docker only.
 
 ## Future
