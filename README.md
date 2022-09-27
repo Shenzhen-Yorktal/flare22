@@ -29,7 +29,7 @@ nnUNet_raw_data_base/nnUNet_raw_data/Task201_FLARE22labeled/
 ```
 
 ### 1.2 Data Preprocessing
-Also, you should do some preprocessing.We use the default setting
+Also, you should do some preprocessing. We use the default setting
 ```
 nnUNet_plan_and_preprocess -t 22 -pl3d ExperimentPlanner3D_v21 -pl2d None
 ```
