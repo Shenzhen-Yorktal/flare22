@@ -33,7 +33,7 @@ Also, you should do some preprocessing.We use the default setting
 ```
 nnUNet_plan_and_preprocess -t 22 -pl3d ExperimentPlanner3D_v21 -pl2d None
 ```
-### 1.3 Training a primitive model
+### 1.3 Training a basic model
 Now, you can train the basic model. In our work, we trained with the all labeled data, also you can train with 5-fold.
 ```
 run_training 3d_fullres nnUNetTrainerV2 -t 201 all -pl3d nnUNetPlansv2.1_plans_3D -pl2d None
