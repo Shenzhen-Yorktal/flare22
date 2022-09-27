@@ -22,10 +22,10 @@ put the Task201_Flare22AbdominalOrgansSegmentation.py into nnUNet\nnunet\dataset
 then run Task201_Flare22AbdominalOrgansSegmentation.py
 
 nnUNet_raw_data_base/nnUNet_raw_data/Task201_FLARE22labeled/
-©À©¤©¤ dataset.json
-©À©¤©¤ imagesTr
-©À©¤©¤ imagesTs
-©¸©¤©¤ labelsTr
+â”œâ”€â”€ dataset.json
+â”œâ”€â”€ imagesTr
+â”œâ”€â”€ imagesTs
+â””â”€â”€ labelsTr
 ```
 
 ### 1.2 Data Preprocessing
