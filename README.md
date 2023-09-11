@@ -55,7 +55,7 @@ Now, we have 50 labeled cases and 2000 pseudo labeled cases. Then we can do supe
 
 ## 2. Cascade models 
 As described in our paper, we design a cascade framework to reduce the memory consume, which consists of a low-resolution localization model and a high-resolution segmentation model.
-You can download our pretrained models at [https://pan.baidu.com/s/14atMV7gAzN_P0zpaF8zGqA?pwd=37ik].
+You can download our pretrained models at https://pan.baidu.com/s/14atMV7gAzN_P0zpaF8zGqA?pwd=37ik.
 ### 2.1 Localization model
  The localization model is a default nnUNet model but preprocessing the data in low-resolution, please refer to https://github.com/MIC-DKFZ/nnUNet. 
 In short, take the 13 organs as foreground(labeled 1) and make a new dataset, then train a new model like the basic model in low-resolution space. 
